@@ -39,16 +39,6 @@ az deployment group create \
 
 Or, Deploy with a Parameters File
 Create a parameters.json file for secure password input:
-
-```JSON
-{
-  "parameters": {
-    "miAdminPassword": {
-      "value": "YourStrongPassword123!"
-    }
-  }
-}```
-
 Then, deploy with:
 
 ```bash
